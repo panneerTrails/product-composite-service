@@ -1,0 +1,10 @@
+---
+applications:
+- name: pan-gateway
+  instance: 1
+  host: pan-gateway
+  path: build\libs\pan-gateway-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  memory: 680M
+  services:
+    - test-eureka
