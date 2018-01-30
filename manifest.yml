@@ -1,10 +1,11 @@
 ---
 applications:
-- name: pan-gateway
+- name: product-composite-service
   instance: 1
-  host: pan-gateway
-  path: build\libs\pan-gateway-0.0.1-SNAPSHOT.jar
+  host: product-composite-service
+  path: build\libs\product-composite-service-0.0.1-SNAPSHOT.jar
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
   memory: 680M
   services:
     - test-eureka
+    - pan-config
