@@ -1,5 +1,6 @@
 package com.oauthex.productcomp;
 
+import com.oauthex.common.swagger.web.EnableCommonSwagger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,6 +13,7 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableAutoConfiguration
+@EnableCommonSwagger
 public class ProductcompApplication {
 
 	@LoadBalanced

@@ -12,5 +12,16 @@ security:
 server:
   port: 9092
 
-#url:
-  #productServiceURL: https://product-test-service/ProductService/productServiceStatus
+url:
+  productServiceURL: https://product-test-service/ProductService/productServiceStatus
+
+common:
+  web:
+    config:
+      swagger:
+        controllerPackage: com.oauthex.productcomp.controller
+        author: Panneerselvam
+        apiName: Product Composite API
+        apiVersion: v1
+        apiDescription: API to interact with product-service
+        enabled: true

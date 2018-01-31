@@ -24,6 +24,7 @@
     <orderEntry type="library" name="Gradle: io.pivotal.spring.cloud:spring-cloud-services-starter-config-client:1.6.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-configuration-processor:1.5.9.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: com.oauthex.common.swagger:common-swagger:0.0.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-test:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-actuator:1.5.9.RELEASE" level="project" />

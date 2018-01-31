@@ -4,6 +4,7 @@ buildscript {
 	}
 	repositories {
 		mavenCentral()
+		mavenLocal()
 	}
 	dependencies {
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
@@ -25,6 +26,7 @@ sourceCompatibility = 1.8
 
 repositories {
 	mavenCentral()
+	mavenLocal()
 }
 
 
@@ -46,6 +48,8 @@ dependencies {
 	compile "org.springframework.boot:spring-boot-configuration-processor:${springBootVersion}"
 
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+
+	compile('com.oauthex.common.swagger:common-swagger:0.0.1-SNAPSHOT')
 }
 
 dependencyManagement {
